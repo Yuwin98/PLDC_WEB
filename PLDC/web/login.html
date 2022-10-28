@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login Page</title>
+	
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="loginbox">
+		<img src="Images/avatar.png" class="avatar">
+		<h1>Sign in with your email</h1>
+		<form action="LoginServlet" method="post">
+                        <input type="text" name="name" placeholder="Enter your Name" required>
+			<input type="email" name="email" placeholder="Enter your Email" required>
+			<input type="password" name="password" placeholder="Enter Password" required>
+			<input type="Submit" name="login" value="Login">
+		</form>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.section video{
+	position:absolute;
+	width:100%;
+	height:auto;
+}
+
+.box1{
+	position:absolute;
+	top:260px;
+	left:0;
+	height:140px;
+	width:100%;
+	background:#17202A;
+	opacity: 0.75;
+	
+}
+
+.box2{
+	position:absolute;
+	top:835px;
+	left:0;
+	height:10px;
+	width:560px;
+	background:#17202A;
+}
+
+.box3{
+	position:absolute;
+	top:835px;
+	left:845px;
+	height:10px;
+	width:510px;
+	background:#17202A;
+}
+
+.head h1{
+	position: absolute;
+	top:200px;
+	left:28%;
+	color:aqua;
+	font-size:80px;
+    font-family: 'Pacifico', cursive;
+	z-index: 1;
+}
+
+
+
+.box4{
+	position:absolute;
+	top:1365px;
+	left:0;
+	height:520px;
+	width:100%;
+	background:#17202A;
+	opacity: 0.75;
+}
+
+.box5{
+	position:absolute;
+	top:2385px;
+	left:0;
+	height:320px;
+	width:100%;
+	background:#01579B ;
+	opacity: 0.75;
+}
+
+.start h2{
+	position:absolute;
+	top:750px;
+	left:43%;
+	color:#17202A ;
+	font-size:60px;
+	font-family: 'Abril Fatface', cursive;
+	
+}
+
+.col img{
+	position:absolute;
+	top:730px;
+	left:1px;
+	transform: translate(5%,50%);
+	width:620px;
+	height:auto;
+	border-radius:5px;
+	
+}
+
+.para1 p{
+	position: absolute;
+	top:930px;
+	left:52%;
+	font-size: 43px;
+	font-family: 'PT Sans', sans-serif;
+	color: #000;
+
+}
+
+
+.col2 img{
+	position:absolute;
+	top:1200px;
+	left:650px;
+	transform: translate(10%,50%);
+	width:620px;
+	height:auto;
+	border-radius:5px;
+}
+
+
+.para2 p{
+	position: absolute;
+	top:1370px;
+	left:20px;
+	font-size: 43px;
+	font-family: 'PT Sans', sans-serif;
+	color:#D0D3D4;
+
+}
+
+
+.col3 img{
+	position:absolute;
+	top:1670px;
+	left:1px;
+	transform: translate(5%,50%);
+	width:620px;
+	height:auto;
+	border-radius:5px;
+}
+
+.para3 p{
+	position: absolute;
+	top:1870px;
+	left:52%;
+	font-size: 43px;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.para4 p{
+	position: absolute;
+	top:2470px;
+	left:10%;
+	font-size: 30px;
+	font-family: 'PT Serif', serif;
+	color:#ffffff;
+
+}
+
+.col4 img{
+	position:absolute;
+	top:2350px;
+	left:780px;
+	transform: translate(10%,50%);
+	width:320px;
+	height:auto;
+	border-radius:5px;
+}
+
+
+

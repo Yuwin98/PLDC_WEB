@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:20px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+p	{
+	font-size:30px;
+    font-family:"Lucida Console", Courier, monospace;
+    }
+    
+.btn {
+  background-color:#ff4d4d;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.btn:hover {
+  background-color: #ff0000;
+}
+</style>
+<body>
+
+<center><p>Book Now<p></center>
+
+<div>
+  <form action="/action_page.php">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter Booking Name">
+
+    <label for="number">Contact Number</label>
+    <input type="text" id="number" name="phonenumber" placeholder="Enter Contact Number ">
+
+	 <label for="number">Number of Guests</label>
+    <input type="text" id="nguests" name="numberofguests" placeholder="Enter Number of Guests ">
+    
+     <label for="number">Check-in Date</label>
+    <input type="text" id="c-indate" name="checkindate" placeholder="YYYY-MM-DD ">
+    
+     <label for="number">Check-out Date</label>
+    <input type="text" id="c-outdate" name="checkoutdate" placeholder="YYYY-MM-DD ">
+   
+  
+    <input type="submit" value="Book ">
+    
+  </form>
+</div>
+<br>
+<button class="btn"><i class="fa fa-close"></i> Close</button>
+
+</body>
+</html>

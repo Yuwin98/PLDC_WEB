@@ -1,0 +1,84 @@
+<html>
+<head>
+<style> 
+#rcorners1 {
+  border-radius: 25px;
+  background: #ccffff;
+  padding: 20px; 
+  width: 700px;
+  height: 550px;  
+}
+[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #ccc;
+  border-radius: 6px;
+ 
+}
+
+[type=submit] {
+  width: 50%;
+  background-color: #00e600;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size:25px;
+}
+
+[type=submit]:hover {
+  background-color: #00cc00;
+}
+
+
+h1{
+font-family:"stencil",Courier;
+}
+
+.button {
+   width: 15%;
+  background-color: red;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size:15px;
+  
+
+</style>
+</head>
+<body>
+
+<h1><center>Book Now</center></h1>
+
+
+<p id="rcorners1"> 
+	<label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter Booking Name">
+
+    <label for="number">Contact Number</label>
+    <input type="text" id="number" name="phonenumber" placeholder="Enter Contact Number ">
+
+	<label for="number">Number of Guests</label>
+    <input type="text" id="nguests" name="numberofguests" placeholder="Enter Number of Guests ">
+    
+    <label for="number">Check-in Date</label>
+    <input type="text" id="c-indate" name="checkindate" placeholder="dd-mm-yyyy ">
+    
+    <label for="number">Check-out Date</label>
+    <input type="text" id="c-outdate" name="checkoutdate" placeholder="dd-mm-yyyy">
+   
+  
+    <input type="submit" value="Book ">
+   
+    </p>
+   <input type="button" class="button" value="Close">   
+
+</body>
+</html>
